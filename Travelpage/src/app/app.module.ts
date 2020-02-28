@@ -10,6 +10,9 @@ import { MaroccoComponent } from './marocco/marocco.component';
 import { SpainComponent } from './spain/spain.component';
 import { GreeceComponent } from './greece/greece.component';
 import { Navbar2Component } from './navbar2/navbar2.component';
+import { FooterComponent } from './footer/footer.component';
+import { ServiceComponent } from './service/service.component';
+import { HeadlineComponent } from './headline/headline.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +23,10 @@ import { Navbar2Component } from './navbar2/navbar2.component';
     MaroccoComponent,
     SpainComponent,
     GreeceComponent,
-    Navbar2Component
+    Navbar2Component,
+    FooterComponent,
+    ServiceComponent,
+    HeadlineComponent
   ],
   imports: [
     BrowserModule,
