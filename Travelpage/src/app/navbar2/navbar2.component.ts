@@ -6,9 +6,9 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./navbar2.component.css']
 })
 export class Navbar2Component implements OnInit {
-
+  clickCounter :number = 0;
+  
   constructor() { }
-
   ngOnInit(): void {
   }
 
