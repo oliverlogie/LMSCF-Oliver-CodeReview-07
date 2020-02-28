@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { infos } from '../infos';
 
 @Component({
   selector: 'app-vienna',
