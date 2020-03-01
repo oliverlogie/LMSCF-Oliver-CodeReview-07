@@ -10,6 +10,7 @@ import { BlogComponent } from './blog/blog.component';
 import { CartComponent } from './cart/cart.component';
 import { FooterComponent } from './footer/footer.component';
 import { ReactiveFormsModule } from '@angular/forms';
+import { PicturesComponent } from './pictures/pictures.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { ReactiveFormsModule } from '@angular/forms';
     HeroComponent,
     BlogComponent,
     CartComponent,
-    FooterComponent
+    FooterComponent,
+    PicturesComponent
   ],
   imports: [
     BrowserModule,

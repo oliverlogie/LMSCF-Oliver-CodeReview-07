@@ -12,6 +12,8 @@ const routes: Routes = [
     path: 'infos/:infoId', component: BlogComponent
 },{
   path: 'cart', component: CartComponent
+},{
+  path: 'blog', component: BlogComponent
 }
 ];
 

@@ -1,9 +1,5 @@
-<div class="infos">
-    <h3>{{info.destination}}</h3>
-</div>
-<div class="BG">
+<h3 class="text">Read about experiences, and share yours !</h3>
 
-</div>
 <div class="row">
 <form class="col-lg-4 col-md-4 col-sm-12" [formGroup]="checkoutForm" (ngSubmit)="onSubmit(checkoutForm.value)">
     <div>
@@ -14,9 +10,9 @@
     </div>  
     <div>
       <label for="comment">
-        Your comment
+        Your story
       </label><br>
-      <input class="text" id="comment" type="text" formControlName="comment">
+      <input class="box" id="comment" type="text" formControlName="comment">
     </div>
     <button class="button" type="submit">Submit</button>
    </form>
