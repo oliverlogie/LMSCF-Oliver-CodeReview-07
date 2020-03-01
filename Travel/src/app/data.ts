@@ -33,3 +33,10 @@ img:"../assets/greece.jpg",
 prc:900
 }
 ]
+
+export const pictures = [
+"../assets/blog0.jpg",
+"../assets/blog1.jpg",
+"../assets/blog2.jpg",
+"../assets/blog3.jpg"
+]
