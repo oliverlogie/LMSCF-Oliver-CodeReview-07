@@ -1,1 +1,23 @@
-<p>blog works!</p>
+<div class="infos">
+    <h3>{{info.destination}}</h3>
+</div>
+<div class="BG">
+
+</div>
+<div class="row">
+<form class="col-lg-4 col-md-4 col-sm-12" [formGroup]="checkoutForm" (ngSubmit)="onSubmit(checkoutForm.value)">
+    <div>
+      <label for="name">
+        Name
+      </label><br>
+      <input id="name" type="text" formControlName="name">
+    </div>  
+    <div>
+      <label for="comment">
+        Your comment
+      </label><br>
+      <input class="text" id="comment" type="text" formControlName="comment">
+    </div>
+    <button class="button" type="submit">Submit</button>
+   </form>
+</div>
